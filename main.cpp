@@ -42,6 +42,6 @@ int main()
 		waitKey(30);
 
 	}
-
+	 
 	return 0;
 }
