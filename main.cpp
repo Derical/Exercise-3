@@ -26,7 +26,7 @@ int main()
 		Mat detectMat;
 
 		cap >> frame;
-		Size ResImgSiz = Size(frame.cols * scale, frame.rows * scale);
+		Size ResImgSiz = Size(frame.cols * scale, frame.rows * scale); 
 		Mat rFrame = Mat(ResImgSiz,frame.type());
 		resize(frame, rFrame, ResImgSiz, INTER_LINEAR);
 
